@@ -3,11 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "engines": {
+    "node":"14.x"
+  },
   "scripts": {
     "start": "nodemon ./app.js",
     "seed": "cross-env DB_ENABLE_LOGGING=true node './seed'"
   },
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programingchicken/courseServer.git"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
